@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 300px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 30%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    
+
+}
+
+.input{
+    display: flex;
+    font-size: 3rem;
+    border: 1px solid black;
+    height: 27px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+input{
+    border: none;
+    border-radius: 20px;
+}
+input:active{
+    border: none;
+    
+}
+svg{
+    margin-top: 5px;
+    background-color: rgb(250, 250, 250);
+
+}
+svg:hover{
+    color: rgb(46, 41, 41);
+}
+
+audio{
+    background-color: white;
+    font-size: xx-small;
+}
